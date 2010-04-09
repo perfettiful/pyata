@@ -1,10 +1,10 @@
 = before we start... =
   * you should have already Pure Data installed on your machine. check how to install it on: 
-    * mac osx ([http://en.flossmanuals.net/PureData/InstallingOSX])
-    * windows ([http://en.flossmanuals.net/PureData/InstallingWindows])
-    * linux (ubuntu) ([http://en.flossmanuals.net/PureData/InstallingUbuntu])
+    * [http://en.flossmanuals.net/PureData/InstallingOSX mac osx]
+    * [http://en.flossmanuals.net/PureData/InstallingWindows windows]
+    * [http://en.flossmanuals.net/PureData/InstallingUbuntu linux (ubuntu)]
   
-  * you should be able to run it via command line. you can see how to achieve it here ([http://en.flossmanuals.net/PureData/StartingPD]).
+  * you should be able to run it via command line. you can see how to achieve it [http://en.flossmanuals.net/PureData/StartingPD here].
 
 
 = getting started! =
