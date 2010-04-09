@@ -23,7 +23,7 @@ to download pypd, you need to check out it from svn.
 
 *Windows*
 
-you will need an svn client, like Tortoise (http://tortoisesvn.tigris.org/).
+you will need an svn client, like [http://tortoisesvn.tigris.org/ Tortoise].
 
 == 2 - configure... ==
 after that, you have to configure pypd. for that you must:
