@@ -9,10 +9,10 @@
 
 = getting started! =
 
-it's very easy to use pyPd. this tutorial will show how to get started with it, step by step...
+it's very easy to use Pyata. this tutorial will show how to get started with it, step by step...
 
 == 1 - download... ==
-to download pypd, you need to check out it from svn.
+to download Pypd, you need to check out it from svn.
 
 *OSX/Linux*
 
@@ -26,7 +26,7 @@ to download pypd, you need to check out it from svn.
 you will need an svn client, like [http://tortoisesvn.tigris.org/ Tortoise].
 
 == 2 - configure... ==
-after that, you have to configure pypd. for that you must:
+after that, you have to configure Pyata. for that you must:
   # among the downloaded files, open the "communication_class" directory.
   # open the "communication.py" file.
   # in the beggining of it, you will two important variables (PD_DIR, SERVER_DIR). the first stores where your original pd application is (that one you are able to run using a terminal). the second stores where the file server.pd (that were already downloaded with the source through svn) is. update its values (you must put the entire path!!!) and run the "_example.py_" file that is inside "_communication_class_" directory. if you have no errors, everything should be fine and configured!
