@@ -1,4 +1,4 @@
-#Installing Pyata
+#summary Installing Pyata
 
 = before we start... =
   * you should have already Pure Data installed on your machine. check how to install it on: 
