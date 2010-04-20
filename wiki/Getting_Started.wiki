@@ -1,35 +1,7 @@
-= before we start... =
-  * you should have already Pure Data installed on your machine. check how to install it on: 
-    * [http://en.flossmanuals.net/PureData/InstallingOSX mac osx]
-    * [http://en.flossmanuals.net/PureData/InstallingWindows windows]
-    * [http://en.flossmanuals.net/PureData/InstallingUbuntu linux (ubuntu)]
-  
-  * you should be able to run it via command line. you can see how to achieve it [http://en.flossmanuals.net/PureData/StartingPD here].
+#summary if you want to start using Pyata, read this simple guide.
 
+= installing =
+read [http://code.google.com/p/pyata/wiki/How_To_Install this].
 
-= getting started! =
-
-it's very easy to use Pyata. this tutorial will show how to get started with it, step by step...
-
-== 1 - download... ==
-to download Pyata, you need to check out it from svn.
-
-*OSX/Linux*
-
-  # open a terminal.
-  # make or change into the directory where you want the Pyata sourcecode.
-  # run the following command to download Pyata from the svn repository:
-      {{{svn checkout http://pyata.googlecode.com/svn/trunk/ pyata-read-only}}}
-
-*Windows*
-
-you will need an svn client, like [http://tortoisesvn.tigris.org/ Tortoise].
-
-== 2 - configure... ==
-after that, you have to configure Pyata. for that you must:
-  # among the downloaded files, you'll find "communication.py" file. open it.
-  # in the beggining of it, you will two important variables (PD_DIR, SERVER_DIR). the first stores where your original pd application is (that one you are able to run using a terminal). the second stores where the file server.pd (that were already downloaded with the source through svn) is. update its values (you must put the entire path!!!) and run the "example.py" file. if you have no errors, everything should be fine and configured!
-
-== 3 - ... and run! ==
-now, everything should be fine and you can try Pyata without problems! 
-unhapilly, i still don't have a great documentation to guide new users, but there are some well comment files inside Pyata directory, called example.py. you can use them for a while to guide you through the libary.
+= API documentation =
+read [http://code.google.com/p/pyata/wiki/Documentation this].
