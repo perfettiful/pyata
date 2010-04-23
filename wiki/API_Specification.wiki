@@ -1,0 +1,22 @@
+#summary API Specification for Developers
+
+
+= Boxes Classes =
+You can create Pure data objects using the following objects:
+==Object==
+{{{
+Object(coord_x, coord_y, label)
+}}}
+where:
+coord_x = x position of the box;
+coord_y = y position of the box;
+label = defines the kind of the object (eg: "dac~", "osc~ 440");
+
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
