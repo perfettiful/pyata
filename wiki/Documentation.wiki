@@ -1,5 +1,0 @@
-#summary API Specification for Developers
-
-= Introduction =
-
-TODO
