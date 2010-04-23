@@ -1,0 +1,38 @@
+#summary Describes the Number class and its methods
+
+=Number=
+==Constructor==
+{{{
+Number(coord_x, coord_y)
+}}}
+where:
+    _coord_x_ = x position of the box;
+
+    _coord_y_ = y position of the box;
+
+==Methods==
+{{{
+move(coord_x, coord_y)
+}}}
+moves the object in the patch to a new x, y.
+where:
+    _coord_x_ = x position of the box;
+
+    _coord_y_ = y position of the box;
+
+{{{
+set(value)
+}}}
+sets the number to a specific value;
+where:
+    _value_ = new value of the number;
+
+{{{
+increment()
+}}}
+increments the value of the number;
+
+{{{
+decrement()
+}}}
+increments the value of the number;
