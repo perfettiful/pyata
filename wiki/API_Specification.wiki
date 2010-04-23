@@ -2,7 +2,7 @@
 
 
 = Boxes Classes =
-You can create Pure data boxes using the following objects:
+You can create Pure data boxes using the following objects, each one with some methods:
 ==Object==
 {{{
 Object(coord_x, coord_y, label)
@@ -14,7 +14,9 @@ where:
 
     _label_ = defines the kind of the object (eg: "dac~", "osc~ 440");
 
+
 ==Number==
+===Constructor===
 {{{
 Number(coord_x, coord_y)
 }}}
@@ -22,6 +24,35 @@ where:
     _coord_x_ = x position of the box;
 
     _coord_y_ = y position of the box;
+
+===Methods===
+{{{
+move(coord_x, coord_y)
+}}}
+moves the object in the patch to a new x, y.
+where:
+    _coord_x_ = x position of the box;
+
+    _coord_y_ = y position of the box;
+
+{{{
+move(value)
+}}}
+sets the number to a specific value;
+where:
+    _value_ = new value of the number;
+
+{{{
+increment()
+}}}
+increments the value of the number;
+
+{{{
+decrement()
+}}}
+increments the value of the number;
+
+
 
 ==Message==
 {{{
@@ -34,6 +65,7 @@ where:
 
     _text_ = defines the content of the message;
 
+
 ==Comment==
 {{{
 Comment(coord_x, coord_y, text)
@@ -44,6 +76,7 @@ where:
     _coord_y_ = y position of the box;
 
     _text_ = defines the content of the comment;
+
 
 ==Symbol==
 {{{
