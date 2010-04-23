@@ -53,6 +53,7 @@ paste(new_x, new_y)
 }}}
 where:
     _new_x_ = the x position where you want to paste the objects;
+
     _new_y_ = the y position where you want to paste the objects;
 
 
@@ -63,6 +64,7 @@ duplicate(new_x, new_y)
 }}}
 where:
     _new_x_ = the x position where you want to duplicate the objects;
+
     _new_y_ = the y position where you want to duplicate the objects;
 
 ===Selectall===
