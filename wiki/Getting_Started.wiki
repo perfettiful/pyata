@@ -10,7 +10,7 @@ Some stuff to have in mind before starting:
 Before using, you have to install Pyata. You can find how to do it [http://code.google.com/p/pyata/wiki/How_To_Install here].
 
 =Quick tutorial!=
-This tutorial is quite simples. it will create an oscilator ("osc~") and a digital-analogic converter ("dac~"), connecting them. You can find further informations of functions and what you can do reading the [http://code.google.com/p/pyata/wiki/Pd Pd], [http://code.google.com/p/pyata/wiki/Box Box], [http://code.google.com/p/pyata/wiki/Object Object], [http://code.google.com/p/pyata/wiki/Number Number], [http://code.google.com/p/pyata/wiki/Message Message], [http://code.google.com/p/pyata/wiki/Symbol Symbol] and [http://code.google.com/p/pyata/wiki/Comment Comment], classes API specification.
+This tutorial is quite simples. it will create an oscilator ("osc~") and a digital-analogic converter ("dac~"), connecting them. You can find further informations of classes, methods and what you can do with them reading the [http://code.google.com/p/pyata/wiki/Pd Pd], [http://code.google.com/p/pyata/wiki/Box Box], [http://code.google.com/p/pyata/wiki/Object Object], [http://code.google.com/p/pyata/wiki/Number Number], [http://code.google.com/p/pyata/wiki/Message Message], [http://code.google.com/p/pyata/wiki/Symbol Symbol] and [http://code.google.com/p/pyata/wiki/Comment Comment], classes API specification.
 
 {{{
 #imports Pyata library
