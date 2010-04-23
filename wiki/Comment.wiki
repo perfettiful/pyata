@@ -1,0 +1,23 @@
+#summary Describes the Comment class and its methods
+
+=Comment=
+==Constructor==
+{{{
+Comment(coord_x, coord_y, text)
+}}}
+where:
+
+    _coord_x_ = x position of the box; 
+
+    _coord_y_ = y position of the box; 
+
+    _text_ = defines content of the comment;
+
+==Methods==
+===Edit===
+edits the content of the comment
+{{{
+edit(new_text)
+}}}
+where:
+    new_text = new content of the comment;
