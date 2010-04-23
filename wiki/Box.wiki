@@ -1,7 +1,9 @@
 #summary Describes the Box class and its methods
 
 =Box=
-this is one of the most important class in Pyata. though you cannot create a object of this class, it is super class of all others boxes classes: [http://code.google.com/p/pyata/wiki/Object Object], [http://code.google.com/p/pyata/wiki/Number Number], [http://code.google.com/p/pyata/wiki/Message Message], [http://code.google.com/p/pyata/wiki/Symbol Symbol] and [http://code.google.com/p/pyata/wiki/Comment Comment]. so, as you may expect, all methods described in this document can be used in any of the boxes above.
+this is one of the most important class in Pyata. 
+though you cannot create a object of this class, it is super class of all others boxes classes: [http://code.google.com/p/pyata/wiki/Object Object], [http://code.google.com/p/pyata/wiki/Number Number], [http://code.google.com/p/pyata/wiki/Message Message], [http://code.google.com/p/pyata/wiki/Symbol Symbol] and [http://code.google.com/p/pyata/wiki/Comment Comment]. 
+so, as you may expect, all methods described in this document can be used in any of the classes above.
 
 ==Methods==
 ===Move===
