@@ -1,0 +1,57 @@
+#summary Describes the Box class and its methods
+
+=Box=
+this is one of the most important class in Pyata. though you cannot create a object of this class, it is super class of all others boxes classes: [http://code.google.com/p/pyata/wiki/Object Object], [http://code.google.com/p/pyata/wiki/Number Number], [http://code.google.com/p/pyata/wiki/Message Message], [http://code.google.com/p/pyata/wiki/Symbol Symbol] and [http://code.google.com/p/pyata/wiki/Comment Comment]. so, as you may expect, all methods described in this document can be used in any of the boxes above.
+
+==Methods==
+===Move===
+moves the object in the patch to a new x, y.
+{{{
+move(new_x, new_y)
+}}}
+where:
+    _new_x_ = new x position of the box; 
+
+    _new_y_ = new y position of the box; 
+
+===Verify Inlets===
+verify how many inlets owns the box.
+{{{
+verify_inlets()
+}}}
+ 
+===Verify Outlets===
+verify how many outlets owns the box.
+{{{
+verify_outlets()
+}}}
+ 
+===Select===
+selects the box
+{{{
+select()
+}}}
+
+===Unselect===
+unselects the box
+{{{
+unselect()
+}}}
+
+===Shift Select===
+selects the box. if more than one box is selected, after calling this method, all of them will still be selected. 
+{{{
+shift_select()
+}}}
+
+===Shift Unselect===
+unselects the box. if more than one box is selected, after calling this method, all of them (but the one you called shift_unselect) will still be selected. 
+{{{
+shift_unselect()
+}}}
+
+===Delete===
+deletes the Box from the patch. 
+{{{
+delete()
+}}}
