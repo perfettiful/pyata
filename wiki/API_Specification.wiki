@@ -7,10 +7,9 @@ You can create Pure data objects using the following objects:
 {{{
 Object(coord_x, coord_y, label)
 }}}
-where:
-coord_x = x position of the box;
-coord_y = y position of the box;
-label = defines the kind of the object (eg: "dac~", "osc~ 440");
+_coord_x_ = x position of the box;
+_coord_y_ = y position of the box;
+_label_ = defines the kind of the object (eg: "dac~", "osc~ 440");
 
 
 
