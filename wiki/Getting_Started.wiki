@@ -17,6 +17,8 @@ This tutorial is quite simples. it will create an oscilator ("osc~") and a digit
 from Pd import *
 
 
+
+
 #mains method
 if __name__ == '__main__':
     
@@ -54,15 +56,22 @@ if __name__ == '__main__':
     
     sleep(2)
     
-    
     #increments n1 120 times
     for i in range(0, 220):
         n1.increment()
+    sleep(2)
     
-    #get its value
+    #prints n1 value
     print n1.get_value()
     
+    #prints all objects available in memory
+    print pd.get_box_list()
+    
+    #prints all connections available in memory
+    print pd.get_connection_list()
+    
     sleep(2)
+    
     
     #finishes Pyata
     pd.quit()
