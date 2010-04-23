@@ -1,0 +1,24 @@
+#summary Describes the Object class and its methods
+
+=Object=
+==Constructor==
+{{{
+Object(coord_x, coord_y, label)
+}}}
+where:
+
+    _coord_x_ = x position of the box; 
+
+    _coord_y_ = y position of the box; 
+
+    _label_ = defines the kind of the object (eg: "dac~", "osc~ 440"); 
+
+==Methods==
+
+===Edit===
+edits the number to a specific value.
+{{{
+edit(new_label)
+}}}
+where:
+    new_label = new label of the object;
