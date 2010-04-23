@@ -11,17 +11,6 @@ where:
     _coord_y_ = y position of the box;
 
 ==Methods==
-===Move===
-moves the object in the patch to a new x, y.
-{{{
-move(coord_x, coord_y)
-}}}
-
-where:
-    _coord_x_ = x position of the box;
-
-    _coord_y_ = y position of the box;
-
 ===Set===
 sets the number to a specific value.
 {{{
