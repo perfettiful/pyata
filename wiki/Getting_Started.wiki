@@ -7,6 +7,6 @@ Some stuff to have in mind before starting:
   # The library is still in beta phase. So if you find an bug, please, report it.
 
 =Still before starting...=
-Before using, you have to install Pyata. You can find how to do it [http://code.google.com/p/pyata/wiki/How_To_Install here]
+Before using, you have to install Pyata. You can find how to do it [http://code.google.com/p/pyata/wiki/How_To_Install here].
 
 =Quick tutorial!=
