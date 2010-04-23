@@ -2,13 +2,15 @@
 
 
 = Boxes Classes =
-You can create Pure data objects using the following objects:
+You can create Pure data boxes using the following objects:
 ==Object==
 {{{
 Object(coord_x, coord_y, label)
 }}}
 _coord_x_ = x position of the box;
+
 _coord_y_ = y position of the box;
+
 _label_ = defines the kind of the object (eg: "dac~", "osc~ 440");
 
 
