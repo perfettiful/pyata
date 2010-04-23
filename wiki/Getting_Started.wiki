@@ -10,3 +10,60 @@ Some stuff to have in mind before starting:
 Before using, you have to install Pyata. You can find how to do it [http://code.google.com/p/pyata/wiki/How_To_Install here].
 
 =Quick tutorial!=
+This tutorial is quite simples. it will create an oscilator ("osc~") and a digital-analogic converter ("dac~"), connecting them. You can find further informations of functions and what you can do reading the [http://code.google.com/p/pyata/wiki/Pd Pd], [http://code.google.com/p/pyata/wiki/Box Box], [http://code.google.com/p/pyata/wiki/Object Object], [http://code.google.com/p/pyata/wiki/Number Number], [http://code.google.com/p/pyata/wiki/Message Message], [http://code.google.com/p/pyata/wiki/Symbol Symbol] and [http://code.google.com/p/pyata/wiki/Comment Comment], classes API specification.
+
+{{{
+#imports Pyata library
+from Pd import *
+
+
+#mains method
+if __name__ == '__main__':
+    
+    #creates an instance of Pd
+    pd = Pd()
+    
+    #initializes Pyata
+    pd.init()
+    
+    #creates an object dac~ in 10, 10 on the patch
+    dac = Object(10, 10, "dac~")
+    
+    #moves the dac to 300, 300
+    dac.move(300, 300)
+    
+    #creates an object osc~ in 200, 100 on the patch
+    osc = Object(200, 100, "osc~")
+    
+    #connects the outlet 0 from osc to the inlet 0 from dac
+    connect(osc, 0, dac, 0)
+    
+    #edits the osc object from "osc~" to "osc~ 220"
+    osc.edit("osc~ 220")
+    
+    sleep(2)
+    
+    #creates an number in 200, 10 on the patch
+    n1 = Number(osc.x, 10)
+    
+    #connects the outlet 0 from osc to the inlet 0 from dac
+    connect(n1, 0, osc, 0)
+    
+    #sets the value from the number to 440
+    n1.set(440)
+    
+    sleep(2)
+    
+    
+    #increments n1 120 times
+    for i in range(0, 220):
+        n1.increment()
+    
+    #get its value
+    print n1.get_value()
+    
+    sleep(2)
+    
+    #finishes Pyata
+    pd.quit()
+}}}
