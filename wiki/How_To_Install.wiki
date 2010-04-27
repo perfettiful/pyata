@@ -29,9 +29,8 @@ you will need an svn client, like [http://tortoisesvn.tigris.org/ Tortoise].
 
 == 2 - configure... ==
 after that, you have to configure Pyata. for that you must:
-  # among the downloaded files, you'll find "communication.py" file. open it.
-  # in the beggining of it, you will two important variables (PD_DIR, SERVER_DIR). the first stores where your original pd application is (that one you are able to run using a terminal). the second stores where the file server.pd (that were already downloaded with the source through svn) is. update its values (you must put the entire path!!!) and run the "example.py" file. if you have no errors, everything should be fine and configured!
+  # among the downloaded files, you'll find "config.properties" file. open it.
+  # in the beggining of it, you will find an important variable: PD_DIR, that stores where your original pd application is (that one you are able to run using a terminal). update its value (you must put the entire path!!!) and run the "example.py" file. if you have no errors, everything should be fine and configured!
 
 == 3 - ... and run! ==
-now, everything should be fine and you can try Pyata without problems! 
-unhapilly, i still don't have a great documentation to guide new users, but there are some well comment files inside Pyata directory, called example.py. you can use them for a while to guide you through the libary.
+now, everything should be fine and you can try Pyata without problems! keep on, reading the [http://code.google.com/p/pyata/wiki/Getting_Started tutorial]!
