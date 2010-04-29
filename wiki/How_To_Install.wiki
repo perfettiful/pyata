@@ -1,6 +1,8 @@
 #summary Installing Pyata
 
-i'm still working in a better way to install the library (a distutil installer). so untill this, you will not really install pyata, but just use its source in your program. this is how you can get it.
+i'm still working in a better way to install the library (a distutil installer). 
+untill this, you will not really install pyata, but just use its source in your program. 
+this is how you can get it.
 
 = before we start... =
   * you should have already Pure Data installed on your machine. check how to install it on: 
