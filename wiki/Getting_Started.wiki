@@ -4,7 +4,7 @@
 Some stuff to have in mind before starting:
   # This library works *always* with pd in edit mode. So, if you don't want crash your program, don't change it.
   # Untill this version, it's *not recommended* to create two boxes too near (in x-y position) one from other. This is very important if you don't want to bug your program. This happens due to the manner Pyata was built, based on the position of the boxes on the patch that runs on Pd. So make sure to create boxes keeping a good distance between them.
-  # The library is still in beta phase. So if you find an bug, please, report it.
+  # The library is still in beta phase. So if you find a bug, please, report it.
 
 =Still before starting...=
 Before using, you have to install Pyata. You can find how to do it [http://code.google.com/p/pyata/wiki/How_To_Install here].
